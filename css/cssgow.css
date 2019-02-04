@@ -1,0 +1,316 @@
+@font-face
+{
+font-family: fonto;
+src: url(abel.tff);
+}
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+
+  /*  font-family: fonto;*/
+}
+
+.paginacentro
+{
+    height: 900px;
+   opacity: 0.999;
+   background-color: rgba(170, 0, 28, 0.699);
+    margin: auto;
+    border: 1px solid white;
+    width: 94%;
+   margin-top: 0.3%;
+   border-radius:15px 15px 0px 0px;
+}
+
+#background 
+{    
+width: 100%;
+height: 100%;
+position: fixed;      
+}
+
+.cabecera
+{
+    /*border-radius: 15px 15px 0px 0px;*/
+    /*border: 1px solid white;*/
+    width: 100%;
+    height: 6%; /*cambio ahora*/
+}
+
+.derecha
+{
+width: 20%;
+/*border-radius: 15px 15px 0px 0px;*/
+/*border: 1px solid white;*/
+float: left;
+height: 94.9%;
+}
+.izquierda
+{
+    float: left;
+    width: 20%;
+    /*border-radius: 15px 15px 0px 0px;*/
+/*border: 1px solid white;*/;
+height: 94.9%;
+}
+
+.centro
+{
+    width: 60%;
+    /*border-radius: 15px 15px 0px 0px;*/
+/*border: 1px solid white;*/
+float: left;
+height: 94.9%;
+}
+
+.pie
+{
+    width: 100%;
+    border-radius: 0px 0px 15px 15px;
+border: 1px solid white;
+float: left;
+height: 10%;
+margin-top: 1%;
+background-color: rgba(170, 0, 28, 0.507);
+}
+
+.gearshistory,.gearshistory2,.gearshistory3,.gearshistory4
+{
+   font-size: 50px;
+   font-weight: bolder;
+   color: white;
+    text-align: center;
+    margin-top: -0.4%;
+}
+
+.gearshistory2,.gearshistory4
+{
+    font-size: 35px;
+}
+
+.gearshistory5
+{
+    font-size: 30px;
+    font-weight: bolder;
+   color: white;
+    text-align: center;
+}
+
+/* 3 divs para la columna izquierda*/
+.izquierda2
+{
+    width: 100%;
+    border-radius: 0px 0px 0px 0px;
+    border: 1px solid white;
+    height: 6%;
+}
+
+.izquierda3/*,  .izquierda4*/
+{
+    width: 100%;
+    border-radius: 0px 0px 0px 0px;
+    border: 1px solid white;
+    height: 50%;
+}
+.izquierda4
+{
+    width: 100%;
+    border-radius: 0px 0px 0px 0px;
+    border: 1px solid white;
+    height: 44%;
+}
+/* 3 divs para la columna izquierda*/
+
+/* 3 divs para la columna derecha*/
+.derecha2
+{
+    width: 100%;
+    /*border-radius: 15px;*/
+    border: 1px solid white;
+    height: 6%;
+}
+
+.derecha3
+{
+    width: 100%;
+    /*border-radius: 15px;*/
+    border: 1px solid white;
+    height: 50%;
+}
+
+.derecha4
+{
+    width: 100%;
+    /*border-radius: 15px;*/
+    border: 1px solid white;
+    height: 44%;
+}
+/* 3 divs para la columna derecha*/
+
+/* 2 divs para la columna del medio*/
+.centro2
+{
+    width: 100%;
+    /*border-radius: 15px;*/
+    border: 1px solid white;
+    height: 6%;
+}
+
+.centro3
+{
+    width: 100%;
+    /*border-radius: 15px;*/
+    border: 1px solid white;
+    height: 65%;
+}
+.centro4
+{
+    width: 100%;
+    /*border-radius: 15px;*/
+    border: 1px solid white;
+    height: 29%;
+}
+/* 2 divs para la columna del medio*/
+
+/* Indefinido divs para la pie*/
+.pie3, .pie2
+{
+    width: 100%;
+    height: 50%;
+   /* border: 1px solid white;*/
+
+}
+.pie21, .pie22, .pie23, .pie24, .pie25
+{
+    width: 20%;
+    height: 100%;
+    /*border: 1px solid white;*/
+    float: left;
+}
+.redes
+{
+    width: 12%;
+    height: 100%;
+    margin-left: 40%;
+}
+.redes3
+{
+    width: 35%;
+    height: 100%;
+    margin-left: 35%;
+}
+.redes2
+{
+    width: 20%;
+    height: 100%;
+    margin-left: 40%;
+}
+
+.textopie
+{
+font-size: 20px;
+text-align: center;
+margin-top: 2%;
+}
+/* Indefinido divs para pie*/
+
+.carousel-inner
+{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    margin-top: 3.5%;
+    border-radius: 10px;
+    
+}
+/* texto del div central bajo*/
+.centrotexto
+{
+    
+    text-align: justify;
+    font-size: 19px;
+    color: rgb(255, 255, 255);
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 0%;
+    font-weight: lighter;
+    
+}
+/* cartas derecha*/
+.carousel slide
+{ width: 80%;
+height: 80%;
+ }
+
+.card
+{
+    margin: auto;
+    margin-top: 3%;
+    height: 94%;
+    border-radius: 15px;
+    text-align: justify;
+}
+
+.card-img-top
+{
+    border-radius: 15px 15px 0px 0px;
+}
+/* texo mas tweet*/
+
+.gearshistory22,.gearshistory23
+{
+    text-align: center;
+    color: white;
+    font-size: 19px;
+    margin-top: 3%;
+}
+/* texo mas tweet*/
+/* trailer para el div izquierdo*/
+.trailergears2
+{
+    width: 100%;
+    border: 1px solid white;
+    height: 55%;
+    border-radius: 15px 15px 0px 0px;
+}
+.trailergears
+{
+    width: 95%;
+    border-radius: 15px;
+    height: 87%;
+    border: 1px solid white;
+    margin: auto;
+    background-color: white;
+}
+
+.info
+{
+    text-align: justify;
+    font-size: 17px;
+    font-weight: lighter;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 0%;
+}
+#verya
+{
+    margin-left: 7%;
+    width: 30%;
+    margin-top: -2%;
+}
+/* trailer para el div izquierdo*/
+.inventada
+{
+    margin-left:10px;
+    width: 50%;
+    height: 100px;
+}
+
+#twitter-widget-0
+{
+    width: 500px;
+    min-width: 335px !important;
+
+}
+
+
