@@ -18,7 +18,7 @@ public class EjerciciosArraysTao13 {
         int N = sc.nextInt();
 
         int aritmetica[] = new int[N];
-        aritmetica[0] = V; // Le asigno a la posicion 0 el valor de I
+        aritmetica[0] = V; // Le asigno a la posicion 0 el valor de V
 
         for (int i = 1; i < aritmetica.length; i++) { // Empiezo desde 1
             aritmetica[i] = aritmetica[i - 1] + I; // Aquí sumo una posicion anterior más I
