@@ -17,7 +17,7 @@ public class EjerciciosArraysFreezer15 {
 
         int[] vector = new int[N];
 
-        Arrays.fill(vector, M); // Método para mostrar
+        Arrays.fill(vector, M); // Método para reemplazar una posición
 
         for (int i = 0; i < vector.length; i++) {
             System.out.print(vector[i] + " | ");
