@@ -88,10 +88,10 @@ public class HeadBall {
 
     private static void resultadoCartas(int[] valor, int monedas) {
         for (int i = 0; i < valor.length; i++) {
-            if (valor[i] == monedas) {
-                System.out.print(ANSI_YELLOW + valor[i] + " | " + ANSI_RESET);
-            } else if (valor[i] == -1) {
+            if (valor[i] == -1) {
                 System.out.print(ANSI_RED + valor[i] + " | " + ANSI_RESET);
+            } else if (valor[i] == monedas) {
+                System.out.print(ANSI_YELLOW + valor[i] + " | " + ANSI_RESET);
             } else {
                 System.out.print(valor[i] + " | ");
             }
