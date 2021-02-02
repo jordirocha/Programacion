@@ -8,7 +8,7 @@ public class EscogerCarta {
         
          for (int i = 0; i < matriz.length; i++) {
             for (int j = 0; j < matriz[i].length; j++) {
-                matriz[j][i] = (i + 1) * j;
+                matriz[j][i] = (i + 1) * (j + 1);
             }
         }
 
