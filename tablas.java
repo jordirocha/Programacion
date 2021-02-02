@@ -5,12 +5,10 @@ public class EscogerCarta {
     public static void main(String[] args) {
 
         int matriz[][] = new int[10][10];
-        int tabla = 0;
-
-        for (int i = 0; i < matriz.length; i++) {
-            tabla++;
+        
+         for (int i = 0; i < matriz.length; i++) {
             for (int j = 0; j < matriz[i].length; j++) {
-                matriz[j][i] = tabla * j;
+                matriz[j][i] = (i + 1) * j;
             }
         }
 
