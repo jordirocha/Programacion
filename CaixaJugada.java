@@ -29,6 +29,10 @@ public class CaixaJugada {
 
             checkSuma = comprobarSuma(daus, cartasElegidas, numCartas);
 
+               if (checkSuma) {
+                marcarUtilizadas(cartas, cartasElegidas, numCartas);
+            }
+            
             marcarUtilizadas(cartas, cartasElegidas, numCartas);
         } while (checkSuma); // Mientras la suma sea correcta se repite el ciclo
 
