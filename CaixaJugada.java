@@ -32,8 +32,7 @@ public class CaixaJugada {
                if (checkSuma) {
                 marcarUtilizadas(cartas, cartasElegidas, numCartas);
             }
-            
-            marcarUtilizadas(cartas, cartasElegidas, numCartas);
+
         } while (checkSuma); // Mientras la suma sea correcta se repite el ciclo
 
         System.out.println("Te han quedado " + puntsFinales(cartas) + " puntos de las cartas.");
